@@ -1,0 +1,13 @@
+127.0.0.1 | 2021-07-12 02:41:58 | change stock  | QOH :0  to 50  | ROL : 0  to 10  | item :  | 123456 rank 1 slamc
+127.0.0.1 | 2021-07-12 02:43:47 | change stock  | QOH :0  to 50  | ROL : 0  to 20  | item :  | 123456 rank 1 slamc
+127.0.0.1 | 2021-07-12 02:44:34 | change stock  | QOH :0  to 60  | ROL : 0  to 10  | item :  | 123456 rank 1 slamc
+127.0.0.1 | 2021-07-12 02:48:56 | change stock  | QOH :0 Tab to 50 Tab | ROL : 0 Tab to 10 Tab | item : Amitriptyline 25 mg | 123456 rank 1 slamc
+127.0.0.1 | 2021-07-12 02:52:22 | change stock  | QOH :0 Tab to 60 Tab | ROL : 0 Tab to 20 Tab | item : Amitriptyline 25 mg | 123456 rank 1 slamc
+127.0.0.1 | 2021-07-12 02:59:49 | change stock  | QOH :0 Cap to 750 Cap | ROL : 0 Cap to 80 Cap | item : Amoxicillin 250mg | 123456 rank 1 slamc
+127.0.0.1 | 2021-07-12 03:27:34 | change stock  | QOH :0 Tab to 50 Tab | ROL : 0 Tab to 10 Tab | item : Amitriptyline 25 mg | 123456 rank 1 slamc
+127.0.0.1 | 2021-07-12 03:27:49 | change stock  | QOH :0 Bottle to 150 Bottle | ROL : 0 Bottle to 60 Bottle | item : Activated Charcoal 50g | 123456 rank 1 slamc
+127.0.0.1 | 2021-07-12 03:30:54 | change stock  | QOH :0 Tab to 70 Tab | ROL : 0 Tab to 50 Tab | item : Amitriptyline 25 mg | 123456 rank 1 slamc
+127.0.0.1 | 2021-07-12 03:31:52 | change stock  | QOH :0 Bottle to 70 Bottle | ROL : 0 Bottle to 20 Bottle | item : Activated Charcoal 50g | 123456 rank 1 slamc
+127.0.0.1 | 2021-07-12 03:32:06 | change stock  | QOH :0 Bottle to 1500 Bottle | ROL : 0 Bottle to 500 Bottle | item : Azithromycin 15ml | 123456 rank 1 slamc
+127.0.0.1 | 2021-07-12 03:33:19 | change stock  | QOH :1500 Bottle to 1700 Bottle | ROL : 500 Bottle to 600 Bottle | item : Azithromycin 15ml | 123456 rank 1 slamc
+127.0.0.1 | 2021-07-12 03:34:14 | change stock  | QOH :0 Cap to 150 Cap | ROL : 0 Cap to 80 Cap | item : Amoxicillin 250mg | 123456 rank 1 slamc

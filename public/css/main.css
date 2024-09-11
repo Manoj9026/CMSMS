@@ -1,0 +1,169 @@
+/* 
+    Created on : Feb 3, 2016, 7:19:19 PM
+    Author     : Ajith Parakrama Perera
+    Comapny    : tytern solution
+/*
+define font family
+*/
+ @font-face {
+    font-family: 'source_sans_proextralight';
+    src: url('fonts/sourcesanspro-extralight-webfont.eot');
+    src: url('fonts/sourcesanspro-extralight-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/sourcesanspro-extralight-webfont.woff2') format('woff2'),
+         url('fonts/sourcesanspro-extralight-webfont.woff') format('woff'),
+         url('fonts/sourcesanspro-extralight-webfont.ttf') format('truetype'),
+         url('fonts/sourcesanspro-extralight-webfont.svg#source_sans_proextralight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'source_sans_prolight';
+    src: url('fonts/sourcesanspro-light-webfont.eot');
+    src: url('fonts/sourcesanspro-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/sourcesanspro-light-webfont.woff2') format('woff2'),
+         url('fonts/sourcesanspro-light-webfont.woff') format('woff'),
+         url('fonts/sourcesanspro-light-webfont.ttf') format('truetype'),
+         url('fonts/sourcesanspro-light-webfont.svg#source_sans_prolight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'source_sans_proregular';
+    src: url('fonts/sourcesanspro-regular-webfont.eot');
+    src: url('fonts/sourcesanspro-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/sourcesanspro-regular-webfont.woff2') format('woff2'),
+         url('fonts/sourcesanspro-regular-webfont.woff') format('woff'),
+         url('fonts/sourcesanspro-regular-webfont.ttf') format('truetype'),
+         url('fonts/sourcesanspro-regular-webfont.svg#source_sans_proregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+} 
+
+
+@font-face {
+    font-family: 'devamini-futuree';
+    src: url('fonts/devanmini-future-webfont.woff2') format('woff2'),
+         url('fonts/devanmini-future-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'malith';
+    src: url('fonts/4u-malith__-webfont.woff2') format('woff2'),
+         url('fonts/4u-malith__-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'somi_dilrukshi';
+    src: url('fonts/somi_dilrukshi-webfont.woff2') format('woff2'),
+         url('fonts/somi_dilrukshi-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+html,body{height: 100%;  }
+.container{ min-height: 100%;   }
+body{ background-color: #F0F3EF;}
+/*
+
+body{font-family: 'source_sans_proregular',Helvetica,Arial,sans-serif; font-size: 18px;} */
+/*head lines*/
+h1,h2,h3,h4,h5, .h1,.h2,.h3,.h4,.h5 { font-family: 'source_sans_proregular'; color: #02A97A;}
+.h1{ font-size: 38px; font-weight: 500; font-family: 'source_sans_proextralight';   }
+.h2{font-size: 34px; font-weight: 500; font-family: 'source_sans_proextralight'; }
+.h3{font-size: 20px;   }
+.h4{font-size: 17px;   }
+.h5{font-size: 14px;  }
+
+p{font-size: 16px; color: #222222; font-family: sans-serif;}
+.p-lg{font-size: 30px; font-weight: 300; font-family: 'source_sans_proextralight';}
+.si{ font-family:  'malith' !important ; }
+
+/* Nav bar my changes */
+.navbar{ color: #444;    }
+.navbar a {color: #444;}
+.navbar-nav .active{ background-color: #ffffff !important;}
+.navbar-nav .active a{ background-color: #ffffff !important; color: #000 !important;}
+.img .new{     position: absolute;    top: 25px;    right: 14px;    font-size: 16px;    background-color: #EF2327;    color: #fff;    display: inline-block;    padding: 5px; font-variant: small-caps; border-top-left-radius: 15px;border-bottom-left-radius: 15px;border-top-right-radius: 5px; }
+.img .discount{ position: absolute;  bottom: 35%; left: 5px; font-size: 27px; color: #ffffff; background-color:#00a651; border-radius: 50%; padding: 8px; height: 50px; line-height: 38px;} 
+.slide-image {    width: 100%;}
+.carousel-holder {    margin-bottom: 30px;}
+.carousel-control,.item {    border-radius: 4px;}
+.caption {    height: 130px;  overflow: hidden;}
+.caption h4 {    white-space: nowrap;}
+.btn-social-icon{      position: relative;    padding-left: 44px;    text-align: left;    white-space: nowrap;    overflow: hidden;    text-overflow: ellipsis;    height: 34px;    width: 34px;    padding: 0;  }
+
+.home-product{ margin-top: 20px; }
+.thumbnail img {   width: 100%;}
+.thumbnail { padding: 0; margin: 1px; min-height: 300px;   margin-bottom: 13px; text-align: justify;}
+.thumbnail p, .thumbnail .h3 { padding: 0 5px;}
+.thumbnail .thumbnail-con{ padding: 2px 5px;}
+.thumbnail-con p{ text-align: justify; }
+.thumbnail .more{ text-align: center; display: block; width: 50%; margin-left: 25%; vertical-align: central; margin-top: 5px;  background-color: #00c58e; padding: 2px; color: #ffffff;}
+.thumbnail .caption-full { padding: 9px; color: #333;}
+
+.footer {         color: #000; height: 50px;background: rgba(149,149,149,1); position:absolute;width: 100%;}
+.footer span a{ color: #fff; text-decoration: none;}
+.navbar-default{ background-color: #00b681; color: #444; -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.4);-moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.4);box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.4);}.navbar-default .navbar-brand, .navbar-nav{color: #fff !important;}
+.navbar-default .navbar-nav > li > a { color: #fff; }
+.navbar-default .navbar-nav > li > a:hover{ background-color: #3cb878; }
+.logo{position: absolute; z-index: 25; right: 28px;; top: 5%; border: #fff 2px solid;   background-color: rgba(255,255,255,0.7);}
+.logo img{   height: 200px;}
+.page-name{ position: absolute; z-index: 26; right: 28px; top: 228px; color: #fff;             background-color: rgba(165, 165, 165, 0.85); padding: 2px 5px; }
+.page-name h1{ font-size: 28px; }
+.page-name p{}
+.container-fluid{ max-width: 1200px;}
+ .navbar-brand{  
+     -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-family: 'Source Sans Pro','Helvetica Neue',Helvetica,Arial,sans-serif;
+    background-color: #02a356;
+ }
+ 
+ .maintext{text-align: center;  color: #fff; font-size: 55px; font-family: 'source_sans_proextralight', Helvetica, Arial, sans-serif;
+  background: linear-gradient(to right, rgba(2,163,86,0), #00b681 50%,   rgba(40,251,236,0));
+  height: 120px;
+  padding-top: 10px;  
+  }
+#search-box{    background: linear-gradient(to right, rgba(2,163,86,0), #CED2D1  45%,   rgba(40,251,236,0));}
+
+#need{ position: fixed; top: 50%;  left: 0px; background-color:rgba(0, 191, 243, 0.37);;  padding: 15px; font-size: 17px; border-radius: 0 5% 5% 0; cursor: pointer; }
+#need:hover{ background-color:#00bff3; }
+#need span{ cursor: pointer; position: absolute; right: -10px; top: -10px;}
+.maintext h1{font-family: 'source_sans_proextralight', Helvetica, Arial, sans-serif;color: #fff; font-size: 55px;  }
+.shop{ border-bottom: solid rgba(30, 138, 222, 0.84) 1px;  margin:  10px 0; padding-bottom: 10px; /*height: 160px;*/ }
+.shop img{ height: 95%;  }
+.label{ padding: .5em .8em  }
+.shop-logo{ height: 140px;}
+.shop-logo .cover{ width: 100%; display: block; height: 100%;  background: linear-gradient( to right, rgba(2,163,86,0), #F0F3EF  98%); 
+-webkit-transition: all 1s ease 2s;
+-moz-transition: all 5s ease 0.1s ;
+-o-transition: all 5s ease 0.1s;
+-ms-transition: all 5s ease 0.1s;
+transition: all 5s ease 0.1s;}
+.shop-logo:hover >  .cover{ 
+-webkit-transition: all 1s ease 0.1s;
+-moz-transition: all 1s ease 0.1s ;
+-o-transition: all 1s ease 0.1s;
+-ms-transition: all 1s ease 0.1s;
+transition: all 1s ease 0.1s; opacity:0;} 
+                 
+ @media (max-width:1200px){
+     .logo img{ height: 150px;}
+     .page-name{ bottom: 0px; top: 170px;}      
+ }
+  @media (max-width:1000px){
+     .logo img{ height: 150px;  }
+     .log{ position: static;}
+     .page-name{ bottom: 0px; top: 170px; left: 0; position: static; background-color: #3de096;  }
+
+ }
+
+@media all and (max-width:1366px){}
+@media all and(max-width:1024px){}
+@media all and(max-width:840px){}
+@media all and(max-width:540px){.maintext{ font-size: 25px; }}
+@media all and(max-width:320px){  .maintext{ font-size: 25px; }}

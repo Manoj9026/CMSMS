@@ -1,0 +1,6 @@
+172.16.71.5 | 2024-02-28 01:03:01 | change stock  | QOH :0 Cap to 5000 Cap | ROL : 0 Cap to 20 Cap | item : Amoxicillin 250mg | S/650796 Wo I AS Sirimath USP
+172.16.71.4 | 2024-03-16 12:29:03 | change stock  | QOH :0 Cap to 5000 Cap | ROL : 0 Cap to 2000 Cap | item : Amoxicillin 250mg | S/650796 Wo I AS Sirimath USP
+172.16.71.4 | 2024-03-16 12:29:30 | change stock  | QOH :0 Tab to 10000 Tab | ROL : 0 Tab to 5000 Tab | item : Paracetamol 500 mg | S/650796 Wo I AS Sirimath USP
+172.16.71.4 | 2024-03-16 12:29:44 | change stock  | QOH :0 Bottle to 2000 Bottle | ROL : 0 Bottle to 1000 Bottle | item : Amoxicillin Oral Suspension 125mg/5ml, 100ml | S/650796 Wo I AS Sirimath USP
+172.16.71.5 | 2024-03-20 03:22:41 | change stock  | QOH :0 Tab to 1000 Tab | ROL : 0 Tab to 500 Tab | item : Amitriptyline 25 mg | S/650796 Wo I AS Sirimath USP
+172.16.71.5 | 2024-03-20 05:22:20 | change stock  | QOH :0 Tab to 1000 Tab | ROL : 0 Tab to 500 Tab | item : Amitriptyline 25 mg | S/650796 Wo I AS Sirimath USP

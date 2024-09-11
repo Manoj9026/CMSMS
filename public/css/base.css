@@ -1,0 +1,112 @@
+/* Reset All */
+a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,caption,center,cite,code,dd,del,details,dfn,div,dl,dt,em,embed,fieldset,figcaption,figure,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,html,i,iframe,img,ins,kbd,label,legend,li,mark,menu,nav,object,ol,output,p,pre,q,ruby,s,samp,section,small,span,strike,strong,sub,summary,sup,table,tbody,td,tfoot,th,thead,time,tr,tt,u,ul,var,video{margin:0;padding:0;border:0;font:inherit;vertical-align:baseline}
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}
+body{line-height:1}
+ol,ul{list-style:none}
+blockquote,q{quotes:none}
+blockquote:after,blockquote:before,q:after,q:before{content:'';content:none}
+table{border-collapse:collapse;border-spacing:0}
+a{text-decoration:none!important}
+
+::-webkit-scrollbar { width: 11px; height: 11px; }
+::-webkit-scrollbar-track {-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);-webkit-border-radius: 10px; border-radius: 10px;}
+::-webkit-scrollbar-thumb { border-radius: 1em; background-color: rgba(50,50,50,0.4); }
+::-webkit-scrollbar-thumb:window-inactive {	background: rgba(50,50,50,0.2); }
+* { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
+*:before, *:after { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
+html { font-family: sans-serif; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
+html, body { width: 100%; height: 100%; }
+body {  font-family:Aileron, sans-serif; }
+
+img { vertical-align:top; }
+
+/*Grid view create */
+.row{margin:0 -5px;zoom: 1;}
+.row:after,.row:before{content: "";display: table; }
+.row:after{clear: both;}
+[class*=" col-"],[class^=col-]{margin: 0; float: left;position: relative;min-height: 1px;padding: 0 10px;}
+.col-1{width: 8.333%;}
+.col-2{width: 16.666%;}
+.col-3{width:25%;}
+.col-4{width:33.888%;}
+.col-5{width:41.666%;}
+.col-6{width:50%;}
+.col-7{width:58.333%;}
+.col-8{width:66.666%}
+.col-9{width:75%}
+.col-10{width:83.333%}
+.col-11{width:91.666%}
+.col-12{width:100%}
+/*offset-left*/
+.col-1-offset-lg{margin-left: 8.333%;}
+.col-2-offset-lg{margin-left: 16.666%;}
+.col-3-offset-lg{margin-left: 25%;}
+.col-4-offset-lg{margin-left: 33.333%;}
+.col-5-offset-lg{margin-left: 41.666%;}
+.col-6-offset-lg{margin-left: 50%;}
+.col-7-offset-lg{margin-left: 58.333%;}
+.col-8-offset-lg{margin-left: 66.666%;}
+.col-9-offset-lg{margin-left: 75%;}
+.col-10-offset-lg{margin-left: 83.333%;}
+.col-11-offset-lg{margin-left: 91.666%;}
+/*offset right*/
+.col-1-offset-rg{margin-right: 8.333%;}
+.col-2-offset-rg{margin-right: 16.666%;}
+.col-3-offset-rg{margin-right: 25%;}
+.col-4-offset-rg{margin-right: 33.333%;}
+.col-5-offset-rg{margin-right: 41.666%;}
+.col-6-offset-rg{margin-right: 50%;}
+.col-7-offset-rg{margin-right: 58.333%;}
+.col-8-offset-rg{margin-right: 66.666%;}
+.col-9-offset-rg{margin-right: 75%;}
+.col-10-offset-rg{margin-right: 83.333%;}
+.col-11-offset-rg{margin-right: 91.666%;}
+
+.clear:after,clear:before,form-group:after,form-group:before{content: "";display: table;}
+.form-group:after,.clear:after{clear: both;}
+.img-responsive img{max-width: 100%;}
+
+/*text*/
+sup{vertical-align:super !important; font-size: 80%}
+strong{font-weight: 600;}
+small{font-size: 75%;}
+h1,h2,h3,h4,h5,h6{}
+h1 small,h2 small,h3 small,h4 small{display: block;font-size: 50%;}
+label {
+    display: inline-block;
+    max-width: 100%;
+    margin-bottom: 5px;
+    font-weight: 700;
+}
+.text-center{text-align: center;}
+.text-right{text-align: right;}
+.text-left{text-align:left;}
+.text-justy{text-align: justify;}
+
+/*main body*/
+.wrap1000{max-width: 1000px; margin: 0 auto; position: relative;}
+.wrap1100{max-width: 1100px; margin: 0 auto; position: relative;}
+.wrap1200{max-width: 1200px; margin: 0 auto; position: relative;}
+
+/* Margin */
+.m-n{margin: 0;}
+.mt-sm{margin-top: 10px;}
+.mt-m{margin-top: 15px;}
+.mt-lg{margin-top: 20px;}
+.mt-xl{margin-top: 40px;}
+.mt-xxl{margin-top: 50px;}
+/*marging bottom*/
+.mb-sm{margin-bottom: 10px;}
+.mb-m{margin-bottom:15px;}
+.mb-lg{margin-bottom:20px;}
+.mb-xl{margin-bottom:40px;}
+.mb-xxl{margin-bottom:50px;}
+
+@media all and (max-width:840px){ 
+    .col-m{width: 100%; margin-bottom: 15px;}
+    .col-sm{width: 50%}
+    .row{margin-left: 0; margin-right: 0;}
+}
+@media all and (max-width: 540px){
+    [class*=" col-"],[class^=col-]{width: 100%; margin-bottom: 0px;padding: 0;}
+}

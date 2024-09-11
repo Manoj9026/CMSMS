@@ -1,0 +1,49 @@
+/*! http://responsiveslides.com v1.54 by @viljamis */
+.banner {
+  position: relative;
+  list-style: none;
+  overflow: hidden;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  z-index:3;
+  }
+
+.banner li {
+  -webkit-backface-visibility: hidden;
+  position: absolute;
+  display: none;
+  width: 100%;
+  left: 0;
+  top: 0;
+  }
+
+.banner li:first-child {
+  position: relative;
+  display: block;
+  float: left;
+  }
+
+.banner img {
+  display: block;
+  height: auto;
+  float: left;
+  width: 100%;
+  border: 0;
+  }
+.banner-wrapper { position: relative; }
+.banner div { position: absolute; height: 100%; width: 100%; text-align: center; vertical-align: middle;}
+.banner div img { display: inline-block; float: none; width: auto; max-width: 100%; vertical-align: middle; }
+.bannerSlider_nav { position:absolute; top:45%; z-index:89; }
+.bannerSlider_nav.prev { left:10px; }
+.bannerSlider_nav.next { right:10px; }
+.bannerSlider_nav img { opacity:0.5;  -webkit-transition:all ease-in-out 0.3;-moz-transition:all ease-in-out 0.3;transition:all ease-in-out 0.3;}
+.bannerSlider_nav:hover img { opacity:1; }
+.bannerSlider_tabs { position: absolute; width: 100%; text-align: center; bottom: 16px; z-index: 9;}
+.bannerSlider_tabs li { display: inline-block; width: 16px; height: 16px; vertical-align: top; border-radius: 50%; margin: 0px 8px; background-color: rgba(255,255,255,1); padding: 2px; opacity: 0.5; border: 2px transparent solid;  -webkit-transition:all ease-in-out 0.3;-moz-transition:all ease-in-out 0.3;transition:all ease-in-out 0.3; }
+.bannerSlider_tabs  li.bannerSlider_here { background-color: rgba(0,0,0,0.4); opacity: 1; border-color:#fff; }
+.bannerSlider_tabs  li img { vertical-align: top;}
+.bannerSlider_tabs li a { opacity: 0;}
+@media all and (max-width: 600px) {
+	.bannerSlider_nav { display:none; }
+}

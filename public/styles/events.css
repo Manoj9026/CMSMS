@@ -1,0 +1,27 @@
+#event {background-color: #F7F7F7;}
+#event .search-wrapper, #event .float-button,#event .post-button { display: none;}
+#event .ev-banner { min-height: 280px; background: url(../images/events/banner4.jpg) center; background-size: cover;}
+#event .ev-card {
+  min-width: 300px;
+  max-width: 400px;
+  margin:  8px;
+  box-sizing: border-box;
+  border: 1px solid #E7EAEC;
+  background-color: #FFF;
+  text-align: left; }
+#event .ev-card .img { overflow: hidden; height: 143px;}
+#event .ev-card img { width: 100%;}
+#event .ev-card h2 { margin: 0 0 4px; font-size: 18px;}
+#event .ev-card {}
+#event .ev-card {}
+#event .ev-card {}
+#event .ev-card {}
+.event-details{  position: relative;  height: 95px;  box-sizing: border-box;  border-top: 1px solid #e7eaec;  cursor: pointer;}
+.event-date-container { padding: 8px;width:72px;min-width:72px;height:auto; margin-right: 8px;}
+.event-date-box { }
+.event-date-box .date-stamp-day {width:100%;color:#666;font-size:27px; font-weight:800;display:block;text-transform:uppercase }
+.event-date-box .date-divider-top{height:5px;background-color:#ff962f;width:100%;display:block;margin:0 0 0px 0px}
+.event-date-box .date-stamp-month-dd{font-size:12px;width:100%;height:auto;color:grey;display:block;font-family:helvetica;text-transform:uppercase}
+.event-details-container { padding: 8px; overflow: hidden;}
+.event-details-container .venue { white-space: nowrap; text-overflow: ellipsis; overflow: hidden;}
+.event-details-container .tickets-at { white-space: nowrap; text-overflow: ellipsis; overflow: hidden;color:#ff962f;}

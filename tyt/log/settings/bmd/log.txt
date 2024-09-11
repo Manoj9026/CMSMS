@@ -1,0 +1,4 @@
+::1 | 2019-03-07 01:25:43 | o/70560 capt ajith parakramachange stockBeclomethasone Dipropionate Inhaler250mcg | QOH 0nos to 500nos | ROL 661nos to 661nos
+::1 | 2019-03-07 01:27:18 | o/70560 capt ajith parakrama | change stock | item : Breath Induced Device for D.P. Caps  | QOH :0nos to 300nos | ROL : 275nos to 275nos
+::1 | 2019-03-07 01:34:31 | change stock  | QOH :0 nos to 90 nos | ROL : 873 nos to 873 nos | item : LCP 3.5mm Clavicle Hook Plate (Right) SMALL FRAGMENT 5 total no of holes 12mm hook depth | o/70560 capt ajith parakrama
+::1 | 2021-07-08 04:33:42 | change stock  | QOH :40000 Tab to 40006 Tab | ROL : 1000 Tab to 1000 Tab | item : Amitriptyline 25 mg | o/70560 cap ajith parakrama

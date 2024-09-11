@@ -1,0 +1,17 @@
+# Protect files.
+<FilesMatch "(\.(xml|html|cache))$">
+  Order allow,deny
+</FilesMatch>
+
+# Disable directory listings.
+Options -Indexes
+
+# Follow symbolic links.
+Options +FollowSymLinks
+
+<IfModule mod_rewrite.c>
+	RewriteEngine On 
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteRule ^(.*)$ index.php [PT,L]
+ </IfModule>
